@@ -1,0 +1,37 @@
+h3{
+    font-family: DolceVita;
+    font-size: 3em;
+    color: purple;
+    text-decoration: underline;
+    position: absolute;
+    top: 50%;
+    right: 22%;
+}
+
+p{
+    font-family: Calibri;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    padding: 0px;
+    padding-top: 10%;
+    text-align: justify;
+}
+
+img{
+    position: absolute;
+    border-radius: 50%;
+    width: 63%;
+    top: 1%;
+    left: 17%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: purple;
+}
+
+.about{
+    width: 80%;
+    position: absolute;
+    bottom: 35%;
+    top: 60%;
+    left: 10%;
+}
