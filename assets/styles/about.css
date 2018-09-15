@@ -5,16 +5,18 @@ h3{
     text-decoration: underline;
     position: absolute;
     top: 50%;
-    right: 22%;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
 }
 
 p{
     font-family: Calibri;
     font-size: 1.25em;
     line-height: 1.5em;
-    padding: 0px;
-    padding-top: 10%;
+    padding: 10% 1%;
     text-align: justify;
+    width: 100%;
 }
 
 img{

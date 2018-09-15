@@ -6,50 +6,52 @@ fieldset{
 
 legend{
     font-family: DolceVita;
-    font-size: 36px;
-    margin-left: 85px;
-    padding-top: 28px;
-    border:none;
-    position:relative;
+    font-size: 2em;
+    margin-left: 10%;
+    padding-top: 6%;
+    border: none;
+    position: relative;
 }
 
 .label{
     position: absolute;
-    padding: 12px;
+    padding-top: 3%;
     color: black;
     display: block;
-    left: 71px;
+    left: 14%;
+    text-align: left;
 }
 
 .textbox{
     display: block;
     position: relative;
-    width: 83%;
+    width: 75%;
     border-radius: 15px;
     height: 20px;
-    margin-top: 25px;
-    margin-left: 84px;
+    margin-top: 5%;
+    margin-left: 11%;
     padding: 5px 0px 5px 5px;
-    font-size: 15px;
+    font-size: 1em;
 }
 
 #message{
-    height: 150px;
-    position: absolute;
-    bottom: 80px;
-    left: 0px;
-    vertical-align:text-top;
-    text-overflow: wrap;
+    height: 35%;
+    position: relative;
+    left: 0%;
+    vertical-align: text-top;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
 }
 
 #submit{
-    position: absolute;
-    bottom: 21px;
+    position: relative;
     background-color: purple;
-    height: 37px;
-    width: 104px;
+    height: 6%;
+    width: 25%;
     color: white;
     border-radius: 15px;
     border-style: none;
-    right: 100px;
+    margin: 7% 62%;
 }
