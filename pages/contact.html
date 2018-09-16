@@ -1,42 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Thomas Gettler</title>
-    <link rel="icon" type="image/jpg" href="../assets/media/logo.jpg">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="../assets/styles/reset.css"/>
-    <link rel="stylesheet" type="text/css" href="../assets/styles/global.css"/>
-    <link rel="stylesheet" type="text/css" href="../assets/styles/contact.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thomas Gettler About</title>
+    <link rel="icon" type="image/jpg" href="./assets/media/logo.jpg">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/styles/global.css">
+    <link rel="stylesheet" href="../assets/styles/contact.css">
 </head>
-<body>
-        <!--Create the top menu-->
-        <div class="header">
-                <h1>Thomas Gettler</h1>
-                <!--Create the buttons on the right side-->
-                <div class="menu">
-                    <section class="current">Contact</section>
-                    <!--Create a vertical line-->
-                    <div class="vl"></div>
-                    <section><a href="./portfolio.html">Portfolio</a></section>
-                    <div class="vl"></div>
-                    <section><a href="../index.html">About</a></section>
-                </div>
-        </div>    
 
-        <div class="subject" >
-                <!--Create the contact form-->
-                    <fieldset>
-                            <legend>Contact Form</legend>
-                            <section class="label">Name: </section><br>
-                            <input type="text" name="name" placeholder="Enter your name." class="textbox" autofocus>
-                            <section class="label">Email: </section><br>
-                            <input type="email" name="email" placeholder="sample@gmail.com" class="textbox">
-                            <section class="label">Message: </section><br>
-                            <textarea class="textbox" name="message" placeholder="What would you like to say?" id="message"></textarea>
-                            <input type="submit" value="Submit" id="submit">
-                    </fieldset>
+<body>
+    <!--Create the header-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="header col-12 d-inline-flex flex-wrap">
+                <h1 class="col-sm-12 col-md-6 float-left mt-auto">Thomas Gettler</h1>
+                <!--Create the buttons on the right side-->
+                <div class="menu col-sm-12 col-md-6 float-right mt-auto">
+                        <ul class="nav nav-fill">
+                                <li class="nav-item">
+                                <a class="nav-link" href="../index.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link active" href="#">Contact</a>
+                                </li>
+                            </ul>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+    <!--Create the form-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="d-sm-none d-md-block col-md-1"></div>
+            <div class="subject col-sm-12 col-md-10">
+                <form>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Name:</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Email</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                    </div>
+                    <div class="form-group">
+                            <label for="formGroupExampleInput2">Email</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary text-right">Submit</button>
+                </form>
+            </div>
         </div>
+    </div>
+
+    <!--Create the footer-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center fixed-bottom">
+                <hr />
+                <div class="menu">
+                    <a href="https://www.linkedin.com/in/thomasgettler" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+                    <a href="https://github.com/tcgettler" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
+                </div>
+            </div> 
+        </div>
+    </div>
 </body>
 </html>

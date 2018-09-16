@@ -2,45 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Thomas Gettler</title>
+    <title>Thomas Gettler About</title>
     <link rel="icon" type="image/jpg" href="./assets/media/logo.jpg">
-    <link rel="stylesheet" type="text/css" href="./assets/styles/reset.css"/>
-    <link rel="stylesheet" type="text/css" href="./assets/styles/global.css"/>
-    <link rel="stylesheet" type="text/css" href="./assets/styles/about.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/styles/global.css">
+    <link rel="stylesheet" href="./assets/styles/about.css">
 </head>
 <body>
-    <!--Create the top menu-->
-    <div class="header">
-        <h1>Thomas Gettler</h1>
-        <!--Create the buttons on the right side-->
-        <div class="menu">
-            <a href="./pages/contact.html"><section>Contact</section></a>
-            <!--Create a vertical line-->
-            <div class="vl"></div>
-            <a href="./pages/portfolio.html"><section>Portfolio</section></a>
-            <div class="vl"></div>
-            <section id="current">About</section>
-        </div>
-    </div>    
+    <!--Create the header-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="header col-12 d-inline-flex flex-wrap">
+                <h1 class="col-sm-12 col-md-6 float-left mt-auto">Thomas Gettler</h1>
+                <!--Create the buttons on the right side-->
+                <div class="menu col-sm-12 col-md-6 float-right mt-auto">
+                        <ul class="nav nav-fill">
+                                <li class="nav-item">
+                                <a class="nav-link active" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="./pages/portfolio.html">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="./pages/contact.html">Contact</a>
+                                </li>
+                            </ul>
+                </div>
+            </div>
+        </div>    
+    </div>
 
-    <!--Create the content in center of the page -->
-    <div class="subject" >
-        <img src="./assets/media/portrait.jpg" alt="portrait"/>
-        <h3>About Me:</h3>
-        <!--Create the text box description for about-->
-        <div class="about">
-            <p>Welcome! My name is Thomas Gettler.  I am beginning my journey as a fullstack 
-                developer.  Technology is at a point of building worlds and making dreams come
-                true.  My goal is to become the architect behind these worlds and fulfill 
-                the wishes of the masses searching for new places to explore.
-            </p>
-            <p>While not officially a designer, I feel I bring a unique look that will turn
-                heads and catch the best kind of attention. Along with this, I have the writing
-                skills to ensure that your intent behind the sites you want to convey. 
-            </p>
-        </div>  
+    <!--Create the body-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="d-sm-none d-md-block col-md-1"></div>
+            <div class="subject col-sm-12 col-md-10">
+                <div class="col-sm-12 col-md-4 float-left">
+                    <img src="./assets/media/portrait.jpg" class="img-fluid" alt="portrait"/>
+                </div>
+                <div class="about col-sm-12 col-md-8 float-right">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h3>About Me:</h3>
+                        </div>
+                        <div class="col-12 text-center">
+                            <p>Welcome! My name is Thomas Gettler.  I am beginning my journey as a fullstack 
+                                developer.  Technology is at a point of building worlds and making dreams come
+                                true.  My goal is to become the architect behind these worlds and fulfill 
+                                the wishes of the masses searching for new places to explore.
+                            </p>
+                            <p>While not officially a designer, I feel I bring a unique look that will turn
+                                heads and catch the best kind of attention. Along with this, I have the writing
+                                skills to ensure that your intent behind the sites you want to convey. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Create the footer-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center fixed-bottom">
+                <hr />
+                <div class="menu">
+                    <a href="https://www.linkedin.com/in/thomasgettler" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+                    <a href="https://github.com/tcgettler" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
+                </div>
+            </div> 
+        </div>
     </div>
 </body>
 </html>

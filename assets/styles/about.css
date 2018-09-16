@@ -1,39 +1,22 @@
 h3{
     font-family: DolceVita;
-    font-size: 3em;
-    color: purple;
+    font-size:3em;
+    color:purple;
     text-decoration: underline;
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    padding-top: 5%;
+    padding-top:5%;
+}
+
+img{
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2%;
+    border-color: purple;
 }
 
 p{
     font-family: Calibri;
     font-size: 1.25em;
     line-height: 1.5em;
-    padding: 10% 1%;
-    text-align: justify;
-    width: 100%;
-}
-
-img{
-    position: absolute;
-    border-radius: 50%;
-    width: 63%;
-    top: 1%;
-    left: 17%;
-    border-style: solid;
-    border-width: 5px;
-    border-color: purple;
-}
-
-.about{
-    width: 80%;
-    position: absolute;
-    bottom: 35%;
-    top: 60%;
-    left: 10%;
+    padding-top: 4%;
+    text-align:justify;
 }

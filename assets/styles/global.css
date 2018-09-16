@@ -1,21 +1,6 @@
 @font-face {
     font-family:DolceVita;
     src: url(../media/DolceVita.ttf);
- }
-body{
-    width: 100%;
-    width: 100vw;
-}
-
-h1{
-    color: white;
-    font-family: DolceVita;
-    font-size: 2.5em;
-    margin: 0 auto;
-    width: 100%;
-    text-align: center;
-    padding-top: 0.3em;
-    font-weight:bold;
 }
 
 a{
@@ -23,65 +8,92 @@ a{
     color:white;
 }
 
-section{
-    height: 2em;
+h1{
     color: white;
-    font-family: Calibri;
-    font-size: 1em;
-    width: 32.9%;
-    float: right;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: .6em;
+    font-family: DolceVita;
+    font-size: 2em;
+    text-align:center;
+    padding-top: 3%;
+    margin-bottom:0%;
+}
+
+hr{
+    margin-bottom:1%;
+}
+
+i{
+    color:purple;
+    padding:0% 3% 2% 0%;
+}
+
+.about{
+    padding-bottom:5%;
+}
+.btn-primary{
+    background-color:purple;
 }
 
 
-.clearfix{
-  content: "";
-  display: table;
-  clear: both;
+textarea.form-control {
+    height: 23vh;
 }
 
 .header{
     background-color: purple;
-    width: 100%;
     height: 6em;
 }
 
-.menu{
-    width:100%;
-    margin:0 auto;
+.nav{
+    padding-top:0%;
+    margin-top:0%;
+}
+
+.fixed-bottom{
+    background-color:white;
 }
 
 .subject{
-    position: relative;
-    width: 100%;
-    height: 80vh;
-    margin: 0 auto;
-    margin-bottom: 5em;
-    overflow-y: auto;
+    margin-top:5%;
+    margin-bottom: 11%;
+}
+@media screen and (min-width:350px){
+    h1{
+        font-size:2.25em;
+    }
+
+    textarea.form-control {
+        height: 30vh;
+    }
 }
 
-.vl {
-    float: right;
-    border-left: 2px solid white;
-    height: 4em;
-}
+@media screen and (min-width:768px){
+    h1{
+        font-size:3em;
+    }
 
-#current{
-    text-decoration:underline;
-}
+    h2{
+        font-size:3em;
+    }
 
-/*Make a custom scrollbar*/
-::-webkit-scrollbar {
-    width: 12px;
-    display:none;
+    hr{
+        margin-bottom:1%;
+        margin-top:0%;
     }
     
-    ::-webkit-scrollbar-thumb {
-    border-radius: 5px;
-    background-color: purple;
-    -webkit-box-shadow: inset 0 0 2px     rgba(0,0,0,0.5); 
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+        margin-top: 25%;
     }
+
+    .subject{
+        background-color:rgb(231, 231, 231);
+        box-shadow: 1em 1em grey;
+        border-radius:15px 5px;
+    }
+
+}
+
+@media screen and (min-width:980px){
 
 }
