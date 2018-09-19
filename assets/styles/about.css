@@ -20,3 +20,32 @@ p{
     padding-top: 4%;
     text-align:justify;
 }
+
+.about{
+    padding-bottom:5%;
+}
+
+@media screen and (min-width:768px){
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+        margin-top: 25%;
+    }
+}
+@media screen and (min-width:980px){
+    h3{
+        font-size:2em;
+    }
+
+    p{
+        font-size:1em;
+    }
+    .about{
+        margin-top:5vh;
+    }
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+        margin: 5% 0%;
+    }
+}

@@ -6,6 +6,7 @@ img{
     max-height:75%;
     width: auto;
     height: auto;
+    border-width:0px;
 }
 
 p{
@@ -13,4 +14,20 @@ p{
     font-size: 1.5em;
     text-align: center;
     padding: 5%;
+}
+
+@media screen and (min-width:768px){
+    img{
+        max-width:60%;
+        max-height:60%;
+        margin-left:25%;
+    }
+
+}
+
+@media screen and (min-width:980px){
+    img{
+        max-width:50%;
+        max-height:auto;
+    }
 }

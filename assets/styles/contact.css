@@ -1,3 +1,23 @@
+/*
+Form Stylings
+*************
+*************
+*/
 form{
     padding:3% 2%;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+textarea.form-control {
+    height: 23vh;
+}
+
+@media screen and (min-width:350px){
+    textarea.form-control {
+        height: 30vh;
+    }
 }
